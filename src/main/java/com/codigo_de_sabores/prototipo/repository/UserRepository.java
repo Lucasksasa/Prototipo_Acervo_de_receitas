@@ -4,6 +4,7 @@ import com.codigo_de_sabores.prototipo.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-    //Vou mudar isso mais pra frente, não é correto usar o nome e sim o Id
+    // Vou mudar isso mais pra frente, não é correto usar o nome e sim o Id
+    // mas serve para buscar usuários pelo nome
     User findByName(String name);
 }
