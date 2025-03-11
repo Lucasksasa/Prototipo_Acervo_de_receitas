@@ -2,6 +2,7 @@ package com.codigo_de_sabores.prototipo.model;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import java.util.List;
 
 @Entity
 @Data
