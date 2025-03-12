@@ -8,6 +8,16 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/*
+BookService, que será responsável por:
+
+-Criar um livro com as receitas selecionadas pelo editor.
+-Atualizar um livro existente.
+-Remover um livro.
+-Buscar um livro por ID ou listar todos os livros.
+
+*/
+
 @Service
 public class BookService {
     @Autowired
