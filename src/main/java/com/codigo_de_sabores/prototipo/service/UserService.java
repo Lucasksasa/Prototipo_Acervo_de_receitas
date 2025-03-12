@@ -8,6 +8,15 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/*
+UserService, que será responsável por:
+
+-Cadastrar usuários com seus respectivos cargos.
+-Atualizar usuários (alterar nome ou cargo).
+-Remover usuários.
+-Buscar usuários por ID ou listar todos.
+*/
+
 @Service
 public class UserService {
     @Autowired

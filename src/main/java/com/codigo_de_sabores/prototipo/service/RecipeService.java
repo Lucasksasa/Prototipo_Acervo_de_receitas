@@ -8,6 +8,15 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/*
+RecipeService, responsável por:
+
+-Cadastrar receitas com os ingredientes.
+-Atualizar receitas.
+-Remover receitas.
+-Buscar receitas por ID ou listar todas.
+*/
+
 @Service
 public class RecipeService {
     @Autowired
